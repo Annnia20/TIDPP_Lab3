@@ -31,7 +31,7 @@ pipeline {
             steps {
                 echo 'Building the application'
                 // Get some code from a GitHub repository
-                git 'https://github.com/ecaterinaciobanu49/TIDPP3.git'
+                git 'https://github.com/Annnia20/TIDPP_Lab3.git'
                 bat "npm install"
 
             }
