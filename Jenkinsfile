@@ -32,7 +32,7 @@ pipeline {
                 echo 'Building the application'
                 // Get some code from a GitHub repository
                 git 'https://github.com/Annnia20/TIDPP_Lab3.git'
-                bat "npm install"
+                bat 'npm install'
 
             }
         }
